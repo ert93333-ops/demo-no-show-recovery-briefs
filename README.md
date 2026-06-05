@@ -6,6 +6,7 @@ Static browser-local MVP for turning public-safe demo no-show notes into a respe
 
 - Landing: `https://ert93333-ops.github.io/demo-no-show-recovery-briefs/`
 - Checklist: `https://ert93333-ops.github.io/demo-no-show-recovery-briefs/demo-no-show-follow-up-email-template.html`
+- Public Gist checklist: `https://gist.github.com/ert93333-ops/9c3ea9401aa3e805f1e517543eb74099`
 
 ## Scope
 
