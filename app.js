@@ -288,7 +288,7 @@ if (window.location.pathname.endsWith("demo-no-show-follow-up-email-template.htm
   track("template_opened");
   track("seo_page_viewed", { page: "demo_no_show_template" });
 }
-if (window.location.pathname === "/" || window.location.pathname.endsWith("/index.html")) {
+if (window.location.pathname === "/" || window.location.pathname.endsWith("/") || window.location.pathname.endsWith("/index.html")) {
   track("landing_viewed");
 }
 track("page_view");
