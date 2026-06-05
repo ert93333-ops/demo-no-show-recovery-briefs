@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo No-Show Recovery Briefs | Demo no show follow up email template</title>
+  <meta name="description" content="Paste public-safe demo no-show notes and generate a respectful recovery brief, missing-context checklist, and buyer-safe reschedule outline before sales responds.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="Demo No-Show Recovery Briefs">
+  <meta property="og:description" content="Recover missed demos with the right buyer context, timing, and reschedule CTA.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ert93333-ops.github.io/demo-no-show-recovery-briefs/">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://ert93333-ops.github.io/demo-no-show-recovery-briefs/">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#workflow">Skip to workflow</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="./" aria-label="Demo No-Show Recovery Briefs home">Demo No-Show Recovery Briefs</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="#workflow">Workflow</a>
+        <a href="#pricing">Pricing</a>
+        <a href="demo-no-show-follow-up-email-template.html">Template</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div class="hero-copy">
+          <h1>Recover missed demos with the right buyer context, timing, and reschedule CTA.</h1>
+          <p class="hero-subtitle">Paste public-safe no-show notes and get a recovery brief, missing-context checklist, and respectful follow-up outline before sales responds.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#workflow">Generate recovery brief</a>
+            <a class="button secondary" href="demo-no-show-follow-up-email-template.html">View no-show checklist</a>
+          </div>
+        </div>
+        <aside class="brief-preview" aria-label="Brief preview">
+          <p class="brief-label">Checks before reschedule</p>
+          <strong>Source, buyer intent, pain, no-show timing, reminder context, stakeholder role, reschedule CTA, owner, cadence, and privacy risk.</strong>
+          <p>No CRM export. No calendar integration. No call recording upload. No automated email sending.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="workflow" class="section">
+      <div class="shell section-grid">
+        <div>
+          <h2>Turn missed-demo notes into a buyer-safe recovery brief.</h2>
+          <p>Use public-safe notes only. Do not paste CRM exports, calendar exports, call recordings, transcripts, personal emails, credentials, or private buyer data.</p>
+          <div class="input-grid">
+            <label>Demo no-show notes<textarea id="no-show-notes" placeholder="Example: VP Sales booked from pricing page, accepted invite, then missed the demo today."></textarea></label>
+            <label>Meeting source / booking context<textarea id="meeting-context" class="short-textarea" placeholder="Example: inbound pricing-page demo, Calendly, referral, outbound follow-up..."></textarea></label>
+            <label>Buyer intent / requested outcome<textarea id="buyer-intent" class="short-textarea" placeholder="Example: wanted to reduce SDR follow-up delays and recover missed high-intent demos..."></textarea></label>
+            <label>Buyer pain / value hook<textarea id="pain-notes" class="short-textarea" placeholder="Example: losing pipeline when demo requests go cold after one missed meeting..."></textarea></label>
+            <label>No-show timing / follow-up window<textarea id="timing-notes" class="short-textarea" placeholder="Example: missed 35 minutes ago, same-day follow-up window..."></textarea></label>
+            <label>Reminder or attendance context<textarea id="reminder-notes" class="short-textarea" placeholder="Example: accepted invite, reminder sent 1 hour before, possible timezone issue..."></textarea></label>
+            <label>Stakeholder / role / account<textarea id="stakeholder-notes" class="short-textarea" placeholder="Example: VP Sales at 120-person SaaS account, RevOps manager involved..."></textarea></label>
+            <label>Reschedule CTA / next step<textarea id="reschedule-notes" class="short-textarea" placeholder="Example: offer two times, calendar link, or async checklist if timing is bad..."></textarea></label>
+            <label>Owner / cadence / stop condition<textarea id="cadence-notes" class="short-textarea" placeholder="Example: AE sends same-day note, SDR sends one 24-hour follow-up, then close loop..."></textarea></label>
+            <label>Current recovery draft<textarea id="recovery-draft" class="short-textarea" placeholder="Example: Looks like timing slipped today. Want to grab one of these two times or should I send the checklist async?"></textarea></label>
+          </div>
+          <div class="form-actions">
+            <button class="button secondary" type="button" id="sample-button">Load sample no-show</button>
+            <button class="button primary" type="button" id="generate-button">Generate recovery brief</button>
+          </div>
+          <p class="copy-status" id="workflow-error" role="status" aria-live="polite"></p>
+        </div>
+        <aside class="output-panel" id="output-panel" aria-live="polite">
+          <div class="status-pill"><span class="status-dot"></span><span id="output-status">Waiting for no-show notes</span></div>
+          <div id="brief-output" class="brief-output"><p>Paste demo no-show context to generate a recovery-ready brief.</p></div>
+          <button class="button small" type="button" id="copy-brief" disabled>Copy brief</button>
+          <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="shell">
+        <h2>Pay only if this improves demo recovery quality.</h2>
+        <div class="pricing-grid">
+          <article class="price-card">
+            <h3>Starter</h3>
+            <p class="price">$19/month</p>
+            <p>For founder-led sales teams, AEs, and SDRs recovering missed demos manually.</p>
+            <button class="button full plan-button" type="button" data-plan="Starter">Request Starter access</button>
+          </article>
+          <article class="price-card">
+            <h3>Team</h3>
+            <p class="price">$79/month</p>
+            <p>For sales and RevOps teams standardizing respectful no-show recovery messages.</p>
+            <button class="button full plan-button" type="button" data-plan="Team">Request Team access</button>
+          </article>
+        </div>
+        <form class="handoff-panel" id="intent-form">
+          <h3>Purchase-intent fallback</h3>
+          <p>Stored locally in this browser. The public issue handoff excludes private email by default.</p>
+          <div class="input-grid compact">
+            <label>Email<input id="intent-email" type="email" placeholder="you@example.com"></label>
+            <label>Role/team<input id="intent-role" type="text" placeholder="Founder, AE, SDR manager, RevOps lead..."></label>
+            <label>Demo volume<input id="demo-volume" type="text" placeholder="Example: 120 booked demos/month"></label>
+            <label>Current no-show process<input id="current-process" type="text" placeholder="Example: Calendly reminder plus AE manual email"></label>
+            <label>Plan interest<select id="plan-interest"><option>Starter</option><option>Team</option></select></label>
+            <label>Willingness to pay<input id="willingness" type="text" placeholder="$19/month, $79/month, paid pilot..."></label>
+          </div>
+          <button class="button primary" type="submit">Request early access</button>
+          <p class="copy-status" id="intent-status" role="status" aria-live="polite"></p>
+          <div id="remote-intent" hidden>
+            <a class="button secondary" id="remote-intent-link" target="_blank" rel="noreferrer">Open public request</a>
+            <button class="button ghost" type="button" id="copy-remote-intent">Copy request details</button>
+            <p class="copy-status" id="remote-copy-status" role="status" aria-live="polite"></p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <p>Browser-local MVP. No CRM integration, calendar integration, call recording upload, email sending, customer-data storage, or backend.</p>
+      <a href="demo-no-show-follow-up-email-template.html">Demo no-show recovery checklist</a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
